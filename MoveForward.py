@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Micro:bit Robot Basic Movement Example
-# Author: [Your Name]
 # Project: ProjectRobot1_2025
 # Description:
 #   This program displays an arrow on the LED screen and drives the
@@ -41,4 +38,5 @@ while True:
         tinybit.car_stop()
         display.show(Image.ASLEEP)
         sleep(200)
+
 
