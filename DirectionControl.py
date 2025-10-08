@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
 # Micro:bit Tiny:bit Robot – Direction Control Demo
-# Author: [Your Name]
 # Project: ProjectRobot1_2025
 # Description:
 #   Demonstrates direction control for the Tiny:bit robot.
@@ -77,3 +75,4 @@ while True:
         tinybit.car_stop()
         sleep(2000)
         display.clear()
+
