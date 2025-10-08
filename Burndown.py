@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# 定义 Sprint 数据
+# define Sprint data
 sprints = {
     "Sprint 1 – Planning and Project Setup (2 Days)": {
         "days": 2,
@@ -25,7 +25,7 @@ sprints = {
     }
 }
 
-# 绘图
+# draw
 plt.figure(figsize=(12, 10))
 for i, (title, data) in enumerate(sprints.items(), 1):
     plt.subplot(2, 2, i)
@@ -40,3 +40,4 @@ for i, (title, data) in enumerate(sprints.items(), 1):
 
 plt.tight_layout()
 plt.show()
+
