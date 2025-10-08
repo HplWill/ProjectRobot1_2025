@@ -1,6 +1,6 @@
 import pandas as pd
 
-# 创建每个 Sprint 的 burndown 表格数据
+# Create every Sprint'sburndown table data
 sprint_data = {
     "Sprint 1 – Planning and Project Setup": [
         ["Task 1: Define project objectives and overall scope.", "2h", "Done"],
@@ -31,10 +31,11 @@ sprint_data = {
     ]
 }
 
-# 将所有 sprint 数据写入 Excel
+# Input sprint Excel
 with pd.ExcelWriter("/mnt/data/ProjectRobot1_Burndown_Tables.xlsx") as writer:
     for sprint, tasks in sprint_data.items():
         df = pd.DataFrame(tasks, columns=["Task Description", "Estimated Time", "Status"])
         df.to_excel(writer, sheet_name=sprint[:30], index=False)
 
 "/mnt/data/ProjectRobot1_Burndown_Tables.xlsx"
+
