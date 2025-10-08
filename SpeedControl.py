@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Project: ProjectRobot1_2025
 # File: speed_control.py
 # Description:
@@ -35,3 +34,4 @@ tinybit.car_stop()
 display.show(Image.NO)
 sleep(1000)
 display.clear()
+
