@@ -2,8 +2,6 @@
 # Project: ProjectRobot1_2025
 # File: path_control.py
 # Description:
-#   Tiny:bit Robot Path Control — Draw preset paths ("L", "O", "D", "Z")
-#   by combining motion commands. Controlled via buttons A and B.
 
 from microbit import display, Image, sleep, button_a, button_b
 import tinybit
